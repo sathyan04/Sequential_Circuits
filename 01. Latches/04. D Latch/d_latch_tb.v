@@ -10,7 +10,7 @@ initial begin
 	en=1;d=0;#10;
 	en=1;d=1;#10;
 	en=0;d=0;#10;
-        en=0;d=1;#10;
+    en=0;d=1;#10;
 
 	rst=1;
 	en=1;d=0;#10;
@@ -20,8 +20,8 @@ initial begin
 
 	rst=0;
 	en=0;d=0;#10;
-        en=0;d=1;#10;
+    en=0;d=1;#10;
 
-       	$finish;
+    $finish;
 end
 endmodule
