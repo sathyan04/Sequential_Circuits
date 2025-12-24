@@ -23,7 +23,7 @@ always @(posedge clk) begin
 		$display("From West 	: Left=%b | Right=%b | Opposite=%b",w2_l, w2_r, w2_o);
 		$display("From North 	: Left=%b | Right=%b | Opposite=%b",n2_l, n2_r, n2_o);
 		$display("From South 	: Left=%b | Right=%b | Opposite=%b",s2_l, s2_r, s2_o);
-		$display("Time taken = %0t",$time);
+		$display("Time taken 	: %0t",$time);
 		$display("");
 	end
 end
